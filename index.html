@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Waste | Frontend</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Section Hero -->
+        <section class="hero">
+            <header class="navbar">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <nav class="nav-links" id="nav-links">
+                    <a href="#">Beranda</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#features">Fitur</a>
+                    <a href="#testimonial">Testimoni</a>
+                    <a href="">Dampak</a>
+                </nav>
+                <div class="cta-auth">
+                    <a href="auth-z-waste/login.html" class="login" target="_blank">Masuk</a>
+                    <a href="auth-z-waste/register.html" class="register" target="_blank">Daftar</a>
+                </div>
+            </header>
+            <div class="content-hero">
+                <div class="user-badge">
+                    <div class="user-images">
+                        <img src="assets/images/pfp1.png" alt="user1">
+                        <img src="assets/images/pfp2.png" alt="user2">
+                        <img src="assets/images/pfp3.png" alt="user3">
+                    </div>
+                    <span>3K+ orang telah terdaftar!</span>
+                </div>
+
+                <h1>Solusi Pengelolaan Limbah yang Efisien <br> untuk Masa Depan Berkelanjutan</h1>
+                <p>Dengan Z-Waste, sampah bukan lagi masalah. Kumpulkan poin dari <br> setiap limbah yang Anda daur
+                    ulang, dan jadilah bagian dari <br> perubahan besar untuk lingkungan.</p>
+
+                <a href="" class="btn-started">
+                    <span>Get Started</span>
+                    <div class="icon-circle-hero">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="kegiatan-section">
+                <h2><i class="ri-refresh-line"></i> Kegiatan Terbaru Kami</h2>
+                <div class="scroll-container">
+                    <div class="card">
+                        <img src="assets/images/hero1.png" alt="">
+                        <div class="keterangan">
+                            <span class="label">Berita</span>
+                            <p>Pekerja Z-Waste membantu Desa Tawang Rejo membersihkan area sungai.</p>
+                            <a href=""><i class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/hero2.png" alt="">
+                        <div class="keterangan">
+                            <span class="label">Berita</span>
+                            <p>Seminar tentang Pengolahan Sampah menjadi poin by Z-Waste.</p>
+                            <a href=""><i class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/hero1.png" alt="">
+                        <div class="keterangan">
+                            <span class="label">Berita</span>
+                            <p>Komunitas peduli lingkungan mengadakan aksi bersih pantai di Bali.</p>
+                            <a href=""><i class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/hero1.png" alt="">
+                        <div class="keterangan">
+                            <span class="label">Berita</span>
+                            <p>Warga desa bekerja sama mengembangkan pertanian berkelanjutan.</p>
+                            <a href=""><i class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section About -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="text-content">
+                    <p class="label"><i class="star ri-sparkling-2-line"></i> About Us</p>
+                    <h2>Mari Mengenal Z-Waste</h2>
+                    <p class="description">
+                        Kami percaya perubahan dimulai dari rumah Anda. Z-Waste hadir untuk mempermudah masyarakat dalam
+                        mengelola limbah, dan bersama-sama menciptakan lingkungan yang lebih baik untuk generasi
+                        mendatang
+                    </p>
+                    <div class="buttons">
+                        <a href="" class="btn-icon"><i class="ri-sparkling-2-line"></i> Visi Kami</a>
+                        <a href="" class="btn-icon"><i class="ri-rocket-2-line"></i> Misi Kami</a>
+                    </div>
+                    <div class="bottom-row">
+                        <a href="" class="btn-green">Selengkapnya</a>
+                        <div class="social-icons">
+                            <a href="#"><img src="assets/icons/insta.svg" alt="Instagram" /></a>
+                            <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                            <a href="#"><img src="assets/icons/x.svg" alt="X" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img src="assets/images/about.png" alt="Mengelola Sampah">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Steps -->
+        <section class="steps">
+            <h2>Bagaimana Cara Kerja Z-Waste ?</h2>
+            <p class="deskripsi">Dengan Z-Waste, sampah bukan lagi masalah. Kumpulkan poin dari setiap limbah yang Anda
+                daur <br> ulang, dan jadilah bagian dari perubahan besar untuk lingkungan.</p>
+            <div class="steps-grid">
+                <!-- Langkah 1 -->
+                <div class="step-box top active">
+                    <div class="icon"><i class="ri-delete-bin-5-line"></i></div>
+                    <p>Kirim Sampah!</p>
+                </div>
+                <div class="step-circle">1</div>
+
+                <!-- Langkah 2 -->
+                <div class="step-box bottom">
+                    <div class="icon"><i class="ri-file-text-line"></i></div>
+                    <p>Data Sampah <br> dicatat</p>
+                </div>
+                <div class="step-circle">2</div>
+
+                <!-- Langkah 3 -->
+                <div class="step-box top">
+                    <div class="icon"><i class="ri-refresh-line"></i></div>
+                    <p>Sampah Diproses</p>
+                </div>
+                <div class="step-circle">3</div>
+
+                <!-- Langkah 4 -->
+                <div class="step-box bottom">
+                    <div class="icon"><i class="ri-money-dollar-circle-line"></i></div>
+                    <p>Dapatkan Poin</p>
+                </div>
+                <div class="step-circle">4</div>
+
+                <!-- Langkah 5 -->
+                <div class="step-box top">
+                    <div class="icon"><i class="ri-shopping-bag-line"></i></div>
+                    <p>Tukar / Belanjakan Koin</p>
+                </div>
+                <div class="step-circle">5</div>
+            </div>
+        </section>
+
+        <!-- Section Fitur -->
+        <section class="fitur" id="features">
+            <div class="title-features">
+                <h2>Fitur Unggulan dari Z-Waste</h2>
+                <p>Dengan Z-Waste, sampah bukan lagi masalah. Kumpulkan poin dari <br> setiap limbah yang Anda daur
+                    ulang, dan jadilah bagian dari perubahan besar untuk lingkungan</p>
+                <button>Selengkapnya</button>
+            </div>
+
+            <div class="features">
+                <div class="features-card">
+                    <div class="badge"><i class="star ri-sparkling-2-line"> Popular</i></div>
+                    <div class="icon-circle"><i class="ri-qr-scan-2-line"></i></div>
+                    <h4>SCANNER KLASIFIKASI SAMPAH</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                        ac aliquet odio mattis.</p>
+                    <button class="cta-detail">Detail <i class="ri-arrow-right-line"></i></button>
+                </div>
+                <div class="features-card">
+                    <div class="badge"><i class="star ri-sparkling-2-line"> Popular</i></div>
+                    <div class="icon-circle"><i class="ri-delete-bin-6-line"></i></div>
+                    <h4>TUKAR SAMPAH JADI UANG</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                        ac aliquet odio mattis.</p>
+                    <button class="cta-detail">Detail <i class="ri-arrow-right-line"></i></button>
+                </div>
+                <div class="features-card">
+                    <div class="badge"><i class="star ri-sparkling-2-line"> Popular</i></div>
+                    <div class="icon-circle"><i class="ri-robot-2-line"></i></div>
+                    <h4>ECOBOT : ASISTEN DAUR ULANG KAMU!</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
+                        ac aliquet odio mattis.</p>
+                    <button class="cta-detail">Detail <i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Testimonial -->
+        <section class="testimonial" id="testimonial">
+            <h2>Apa kata pengguna kami</h2>
+            <p>Dengan Z-Waste, sampah bukan lagi masalah. Kumpulkan poin dari setiap limbah yang Anda daur <br> ulang,
+                dan jadilah bagian dari perubahan besar untuk lingkungan.</p>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <img src="assets/images/farhan.png" alt="Farhan Rahardian" />
+                        <div class="rating-badge">4.3 <i class="ri-star-fill"></i></div>
+                        <div class="card-overlay">
+                            <h3>Farhan Rahardian</h3>
+                            <p>Testimoni dari pengguna yang telah menggunakan platform ini dan merasakan manfaatnya.</p>
+                            <a href="#">Lebih banyak <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <img src="assets/images/chairul.png" alt="Charul Hidayat" />
+                        <div class="rating-badge">4.3 <i class="ri-star-fill"></i></div>
+                        <div class="card-overlay">
+                            <h3>Charul Hidayat</h3>
+                            <p>Testimoni dari pengguna yang telah menggunakan platform ini dan merasakan manfaatnya.</p>
+                            <a href="#">Lebih banyak <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <img src="assets/images/ratna.png" alt="Ratna Astuti" />
+                        <div class="rating-badge">4.3 <i class="ri-star-fill"></i></div>
+                        <div class="card-overlay">
+                            <h3>Ratna Astuti</h3>
+                            <p>Testimoni dari pengguna yang telah menggunakan platform ini dan merasakan manfaatnya.</p>
+                            <a href="#">Lebih banyak <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <img src="assets/images/wawan.png" alt="Khidir Khairullah" />
+                        <div class="rating-badge">4.3 <i class="ri-star-fill"></i></div>
+                        <div class="card-overlay">
+                            <h3>Khidir Khairullah</h3>
+                            <p>Testimoni dari pengguna yang telah menggunakan platform ini dan merasakan manfaatnya.</p>
+                            <a href="#">Lebih banyak <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <img src="assets/images/farhan.png" alt="Farhan Rahardian" />
+                        <div class="rating-badge">4.3 <i class="ri-star-fill"></i></div>
+                        <div class="card-overlay">
+                            <h3>Farhan Rahardian</h3>
+                            <p>Testimoni dari pengguna yang telah menggunakan platform ini dan merasakan manfaatnya.</p>
+                            <a href="#">Lebih banyak <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <!-- Section Mitra -->
+        <section class="mitra" id="mitra">
+            <h2>Apresiasi untuk Mitra Kami</h2>
+            <p>Dengan Z-Waste, sampah bukan lagi masalah. Kumpulkan poin dari setiap limbah yang Anda daur <br> ulang,
+                dan jadilah bagian dari perubahan besar untuk lingkungan.</p>
+
+            <div class="mitra-flex">
+                <div class="mitra-item">
+                    <img src="assets/images/angkuts.png" alt="Angkuts" />
+                </div>
+                <div class="mitra-item">
+                    <img src="assets/images/mallsampah.png" alt="MallSampah" />
+                </div>
+                <div class="mitra-item">
+                    <img src="assets/images/rebricks.png" alt="Rebricks" />
+                </div>
+                <div class="mitra-item">
+                    <img src="assets/images/rebricks.png" alt="Rebricks" />
+                </div>
+                <div class="mitra-item">
+                    <img src="assets/images/angkuts.png" alt="Angkuts" />
+                </div>
+                <div class="mitra-item">
+                    <img src="assets/images/mallsampah.png" alt="MallSampah" />
+                </div>
+                <div class="mitra-item">
+                    <img src="assets/images/rebricks.png" alt="Rebricks" />
+                </div>
+                <div class="mitra-item">
+                    <img src="assets/images/rebricks.png" alt="Rebricks" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Banner -->
+        <section class="banner" id="banner">
+            <img src="assets/images/pat-1.png" alt="Pattern kiri atas" class="pattern top-left">
+            <div class="content">
+                <h2>Hijaukan Lingkungan, <br> Mulai dari Rumah</h2>
+                <p>Daftar sekarang dan mulai mengelola sampah Anda dengan cara yang cerdas.</p>
+                <a href="" class="btn">
+                    <span>Gabung Sekarang</span>
+                    <div class="icon-circle-hero">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                </a>
+            </div>
+            <img src="assets/images/pat-2.png" alt="Pattern kanan bawah" class="pattern bottom-right">
+        </section>
+
+        <!-- Section Footer -->
+        <section class="footer">
+            <div class="footer-container">
+                <!-- Logo dan Deskripsi -->
+                <div class="footer-brand">
+                    <h3><i class="ri-recycle-line"></i> Z-Waste</h3>
+                    <p>
+                        Dengan Z-Waste, sampah bukan lagi masalah.<br />
+                        Kumpulkan poin dari setiap limbah.
+                    </p>
+                    <div class="bottom-row">
+                        <div class="social-icons">
+                            <a href="#"><img src="assets/icons/insta.svg" alt="Instagram" /></a>
+                            <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                            <a href="#"><img src="assets/icons/x.svg" alt="X" /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Link Kolom -->
+                <div class="footer-links">
+                    <div>
+                        <h4>Perusahaan</h4>
+                        <ul>
+                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="#">Tim Kami</a></li>
+                            <li><a href="#">Outlet Terdekat</a></li>
+                            <li><a href="#">Kontak</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Fitur</h4>
+                        <ul>
+                            <li><a href="#">Smart Scanner</a></li>
+                            <li><a href="#">Trash Exchange</a></li>
+                            <li><a href="#">Eco-shop</a></li>
+                            <li><a href="#">Ecobot.AI</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Program</h4>
+                        <ul>
+                            <li><a href="#">Kampanye Edukasi</a></li>
+                            <li><a href="#">Event Komunitas</a></li>
+                            <li><a href="#">Partnership</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Lapor Masalah</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js" defer></script>
+</body>
+
+</html>
